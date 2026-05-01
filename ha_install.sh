@@ -220,7 +220,7 @@ $(version janus)  # file_upload
 $(version securetar)  # backup
 $(version pyudev)  # usb
 $(version pycognito)
-$(version python-miio)  # xiaomi_miio
+# $(version python-miio)  # xiaomi_miio
 $(version PyXiaomiGateway)
 $(version aiodhcpwatcher)  # dhcp
 $(version aiodiscover)  # dhcp
