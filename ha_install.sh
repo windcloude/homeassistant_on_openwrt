@@ -202,13 +202,13 @@ $(version awesomeversion)
 $(version PyJWT)
 $(version voluptuous)
 $(version voluptuous-serialize)
-# $(version sqlalchemy)  # recorder requirement
+$(version sqlalchemy)  # recorder requirement
 $(version ulid-transform)  # utils
-# $(version packaging)
-# $(version aiohttp-fast-url-dispatcher)
+$(version packaging)
+$(version aiohttp-fast-url-dispatcher)
 $(version psutil-home-assistant)
 $(version async-interrupt)
-# $(version aiohttp-zlib-ng)
+$(version aiohttp-zlib-ng)
 
 # homeassistant manifest requirements
 $(version PyQRCode)
@@ -220,14 +220,14 @@ $(version janus)  # file_upload
 $(version securetar)  # backup
 $(version pyudev)  # usb
 $(version pycognito)
-# $(version python-miio)  # xiaomi_miio
-# $(version PyXiaomiGateway)
-# $(version aiodhcpwatcher)  # dhcp
-# $(version aiodiscover)  # dhcp
-# $(version httpx)  # image/http
-# $(version hassil)  # conversation
-# $(version home-assistant-intents)  # conversation
-# $(version paho-mqtt)  # mqtt
+$(version python-miio)  # xiaomi_miio
+$(version PyXiaomiGateway)
+$(version aiodhcpwatcher)  # dhcp
+$(version aiodiscover)  # dhcp
+$(version httpx)  # image/http
+$(version hassil)  # conversation
+$(version home-assistant-intents)  # conversation
+$(version paho-mqtt)  # mqtt
 
 # fixed dependencies
 python-jose[cryptography]==3.2.0  # (pycognito dep) 3.3.0 is not compatible with the python3-cryptography in the feed
