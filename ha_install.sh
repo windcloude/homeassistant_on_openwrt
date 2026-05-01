@@ -208,7 +208,7 @@ $(version ulid-transform)  # utils
 # $(version aiohttp-fast-url-dispatcher)
 $(version psutil-home-assistant)
 $(version async-interrupt)
-#$(version aiohttp-zlib-ng)
+# $(version aiohttp-zlib-ng)
 
 # homeassistant manifest requirements
 $(version PyQRCode)
