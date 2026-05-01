@@ -149,11 +149,11 @@ opkg install \
   python3-sqlite3 \
 # python3-uuid \
 # python3-unittest \
-  python3-urllib \
-  python3-urllib3 \
-  python3-xml \
-  python3-yaml \
-  python3-yarl
+# python3-urllib \
+# python3-urllib3 \
+# python3-xml \
+# python3-yaml \
+# python3-yarl
 
 # openwrt < 22.03 doesn't have this package
 opkg install python3-pycares 2>/dev/null || true
