@@ -205,7 +205,7 @@ $(version voluptuous-serialize)
 # $(version sqlalchemy)  # recorder requirement
 $(version ulid-transform)  # utils
 # $(version packaging)
-$(version aiohttp-fast-url-dispatcher)
+# $(version aiohttp-fast-url-dispatcher)
 $(version psutil-home-assistant)
 $(version async-interrupt)
 #$(version aiohttp-zlib-ng)
